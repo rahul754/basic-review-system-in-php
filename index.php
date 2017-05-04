@@ -31,7 +31,7 @@ while ($row = $show->fetch_object()) {
  	<form action="" method="post">
  		<div><input type="text" name="name" placeholder="name"></div>
  		<div><textarea type="text" name="comment" placeholder="comment"></textarea></div>
- 		<div><input type="submit" name="comment" value="reviews"> </div>
+ 		<div><input type="submit" name="submit" value="reviews"> </div>
  	</form>
  </div>
 
